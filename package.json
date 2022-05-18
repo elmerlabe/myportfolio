@@ -21,5 +21,8 @@
   "homepage": "https://github.com/elmerlabe/myportfolio#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
   }
 }
