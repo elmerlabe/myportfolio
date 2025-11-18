@@ -436,7 +436,7 @@
         </div>
         <footer>
           <ul id="copyright">
-            <li>&copy; Elmer Labe. All rights reserved.</li>
+            <li>&copy; <span id="year"></span> Elmer Labe. All rights reserved.</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </footer>
@@ -473,5 +473,9 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/myjs.js"></script>
+    <script>
+      // Set the current year in the footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
